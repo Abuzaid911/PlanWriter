@@ -14,7 +14,7 @@ const Qform = () => {
         <div>
             <form onSubmit={handleSubmit(onSubmit)} className="flex gap-3 ">
                 <div className='chat chat-start'>
-            <input type="text" placeholder="Ask your question" className="chat-bubble chat-bubble-sucess"
+            <input type="text" placeholder="Ask your question" className="chat-bubble"
                 {...register("question")}
                 />
                 </div>
